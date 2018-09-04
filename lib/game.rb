@@ -85,5 +85,7 @@ class Game
   end
 
   def winner
+    binding.pry
+    return person_1
   end
 end
