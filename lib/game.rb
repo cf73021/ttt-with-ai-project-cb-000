@@ -93,5 +93,6 @@ class Game
   end
 
   def turn
+    gets 
   end
 end
