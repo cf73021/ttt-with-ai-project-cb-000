@@ -91,4 +91,7 @@ class Game
       nil
     end
   end
+
+  def turn
+  end
 end
