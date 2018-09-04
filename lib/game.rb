@@ -98,7 +98,7 @@ class Game
     if !@board.valid_move?(current_move)
       turn
     else
-      puts " ok"
+      puts "Turn: #{@board.turn_count+1}"
     end
   end
 end
