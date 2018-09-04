@@ -85,7 +85,7 @@ class Game
   end
 
   def winner
-    binding.pry
+
     return board.cells[won?[0]]
   end
 end
