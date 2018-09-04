@@ -85,6 +85,10 @@ class Game
   end
 
   def winner
-    board.cells[won?[0]]
+    if over? == true
+      board.cells[won?[0]]
+    else
+      nil
+    end
   end
 end
