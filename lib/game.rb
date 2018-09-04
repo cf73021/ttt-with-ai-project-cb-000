@@ -92,7 +92,7 @@ class Game
     end
   end
 
-  def turn
+  def turn(player)
     puts "Input your turn"
   end
 end
