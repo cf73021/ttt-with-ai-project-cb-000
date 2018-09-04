@@ -94,5 +94,6 @@ class Game
 
   def turn
     puts "Input your turn"
+    gets.
   end
 end
