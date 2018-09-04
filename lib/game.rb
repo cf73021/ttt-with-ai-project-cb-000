@@ -88,5 +88,6 @@ class Game
     if board.cells[won?[0]] == nil
       return nil
     else board.cells[won?[0]]
+    end
   end
 end
