@@ -99,6 +99,6 @@ class Game
       turn
     else
       puts " ok"
-
+    end
   end
 end
