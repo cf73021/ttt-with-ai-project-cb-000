@@ -94,6 +94,7 @@ class Game
 
   def turn
     player = current_player
+    current_move = player.move(@board)
 
   end
 end
