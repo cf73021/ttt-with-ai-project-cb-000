@@ -94,6 +94,5 @@ class Game
 
   def turn
     puts "Input your turn"
-    player = gets.chomp
   end
 end
